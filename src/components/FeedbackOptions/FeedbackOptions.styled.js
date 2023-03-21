@@ -3,6 +3,7 @@ import styled from '@emotion/styled';
 const ButtonsWrapper = styled.div`
   display: inline-flex;
   gap: 8px;
+  margin: 0 auto 20px;
 `;
 
 const Button = styled.button`

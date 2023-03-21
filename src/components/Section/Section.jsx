@@ -3,11 +3,14 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+import { MainSection, Container, SectionTitle } from './Section.styled';
 const Section = ({ title, children }) => (
-    <section>
-        <p>{title}</p>
-        {children}
-    </section>
+    <MainSection>
+        <Container>
+            <SectionTitle>{title}</SectionTitle>
+            {children}
+        </Container>
+    </MainSection>
 );
 
 Section.propTypes = {

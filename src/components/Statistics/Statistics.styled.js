@@ -7,7 +7,7 @@ const Stat = styled.p`
       case 'Good: ':
         return 'color: green';
       case 'Neutral: ':
-        return 'color: orange';
+        return 'color: yellow';
       case 'Bad: ':
         return 'color: red';
       default:
@@ -16,4 +16,8 @@ const Stat = styled.p`
   }};
 `;
 
-export { Stat };
+const StatContainer = styled.div`
+  margin: auto;
+`;
+
+export { Stat, StatContainer };
