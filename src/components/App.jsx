@@ -33,7 +33,7 @@ class App extends Component {
         }
     };
 
-    //загальну кількість зібраних відгуків.
+    //загальна кількість зібраних відгуків.
     countTotalFeedback = () => {
         const { good, neutral, bad } = this.state;
         return good + neutral + bad;
