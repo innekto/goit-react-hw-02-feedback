@@ -11,8 +11,9 @@ const Container = styled.div`
   flex-direction: column;
 `;
 
-const SectionTitle = styled.h1`
-  display: inline-block;
-  margin: 20px auto 20px;
+const SectionTitle = styled.p`
+  font-size: 20px;
+  margin: auto;
+  margin-bottom: 12px;
 `;
 export { MainSection, Container, SectionTitle };

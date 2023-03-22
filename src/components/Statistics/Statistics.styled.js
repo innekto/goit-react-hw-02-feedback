@@ -14,9 +14,13 @@ const Stat = styled.p`
         return '';
     }
   }};
+  margin: 0;
 `;
 
 const StatContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
   margin: auto;
 `;
 
